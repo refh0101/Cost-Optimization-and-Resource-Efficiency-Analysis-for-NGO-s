@@ -29,13 +29,39 @@ The project employed a structured, insight-driven approach to analyze financial 
 # Tech Stack
 Power BI
 
-For: - Data cleaning
-     - Data Transformations
-     - Data Modeling
-     - Data Analysis
-     -Visulaizations
+- For: - Data cleaning
+       - Data Transformations
+       - Data Modeling
+       - Data Analysis
+       - Visulaizations
 
 
 # Description of the Dataset
 
+Donor_and_Funding
 
+- Donor_ID – Unique identifier for each donor
+- Donor_Name – Name of the individual or organization providing funding
+- Donation_Amount_USD – Total amount donated in USD
+- Program_Funded_ID – ID of the program receiving the donation (links to Program table)
+- Funding_Type – Type of donation (e.g., Recurring, One-time, Emergency)
+- Program_Funded_Name – Name of the program funded by the donor
+
+Finance_Data
+- Program_ID – Unique identifier for each program
+- Program_Name – Name of the program associated with the budget
+- Budget_Allocated_USD – Total budget allocated to the program in USD
+- Budget_Spent_USD – Actual amount spent by the program in USD
+- Funding_Source – Source of funding (e.g., Government Grants, Corporate Sponsors, International Aid, Private Donations)
+
+Programs_Data
+- Program_ID – Unique identifier for each program
+- Program_Name – Name of the program
+- Sector – Program category (e.g., Health, Education, Livelihoods)
+- Region – Geographic area where the program operates
+- Start_Date – Date when the program begins
+- End_Date – Date when the program is expected to end
+- Number_of_Staff – Total number of staff assigned to the program
+- Number_of_Volunteers – Total number of volunteers supporting the program
+- Number_of_Beneficiaries – Number of individuals impacted by the program
+- Program_Status – Current status of the program (e.g., Ongoing, Completed, Upcoming)
