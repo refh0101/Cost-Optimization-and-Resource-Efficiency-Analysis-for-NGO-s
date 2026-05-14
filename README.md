@@ -29,11 +29,11 @@ The project employed a structured, insight-driven approach to analyze financial 
 # Tech Stack
 Power BI
 
-- For: - Data cleaning
-       - Data Transformations
-       - Data Modeling
-       - Data Analysis
-       - Visulaizations
+- Data cleaning
+- Data Transformations
+- Data Modeling
+- Data Analysis
+- Visulaizations
 
 
 # Description of the Dataset
